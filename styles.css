@@ -1,0 +1,92 @@
+body {
+    font-family: cursive;/* Change to a romantic cursive font */
+    background-color: #ffdde1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin: 0;
+    background: url('images/PSX_20230314_113123.jpg') repeat;
+    font-size: 35px;
+    color: rgba(186, 143, 255, 0.932);
+}
+.hh{
+    -webkit-text-stroke: 2px #71004f;
+    font-weight:900;
+
+}
+.pp{
+    -webkit-text-stroke: 2px #71004f;
+
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: 800;
+}
+
+body
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.image{
+    margin-top: 200px;
+    height: 320px;
+    width: 250px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.553);
+    border-radius: 15px;
+}
+
+.buttons button {
+    background-color: #9c00d9;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 26px;
+    cursor: pointer;
+    position: relative;
+    font-family: cursive; /* Change to a romantic cursive font */
+
+}
+
+.buttons button:hover {
+    background-color: #680065;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#no-button{
+    
+}
+
+.hidden-message {
+    display: none;
+    margin-top: 20px;
+}
+
+.move {
+    animation: moveNoMessage 0.5s linear;
+}
+
+@keyframes moveNoMessage {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(30px, 30px); }
+    50% { transform: translate(-20px, -20px); }
+    75% { transform: translate(10px, 10px); }
+    100% { transform: translate(0, 0); }
+}
